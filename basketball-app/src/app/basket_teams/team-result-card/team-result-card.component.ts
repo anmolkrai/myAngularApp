@@ -1,8 +1,8 @@
 import { Component } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
-import { Subscription } from 'rxjs';
-import { Sport } from 'src/app/sport/sport';
-import { SportService } from 'src/app/sport/sport.service';
+import { Subscription } from 'rxjs/internal/Subscription';
+import { Sport } from '../../sport/sport';
+import { SportService } from '../../sport/sport.service';
 import { BasketService } from '../basket.service';
 import { Team } from '../team';
 

@@ -1,7 +1,7 @@
 import { Component, EventEmitter, Input, Output } from '@angular/core';
 import { Subscription } from 'rxjs/internal/Subscription';
 import { Sport } from '../../sport/sport';
-import { SportService } from 'src/app/sport/sport.service';
+import { SportService } from '../../sport/sport.service';
 import { Team } from '../team';
 @Component({
   selector: 'app-team-detail-card',
